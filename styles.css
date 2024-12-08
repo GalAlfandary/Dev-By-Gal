@@ -1,0 +1,46 @@
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+}
+.catchphrase {
+  color: #68BBCD;
+}
+.bg-highlighted {
+  background-color: #68BBCD;}
+.btn-primary {
+  background-color: #68BBCD;
+  border-color: #68BBCD;
+  color: #101B1E;
+  border-radius: 50px;
+}
+.text-bg-dark {
+  background-color: #101B1E;
+  color: #68BBCD;
+}
+.about-me {
+  background-color: #101B1E;
+}
+.bg-body-tertiary {
+  background-color: #101B1E !important; 
+  color: white;
+}
+.skill {
+  background-color: #222F33;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px; /* Padding around each skill block */
+  border-radius: 50px; /* Optional: Rounded corners */
+  height: auto; /* Adjusts height to content */
+  width: auto; /* Adapts width to content */
+}
+
+.skill img {
+  margin-right: 10px; /* Space between the image and the text */
+}
+
+.text-container h3 {
+  white-space: nowrap; /* Prevents wrapping of text */
+  font-size: 1.2rem;
+  margin: 0; /* Removes default margin */
+}
