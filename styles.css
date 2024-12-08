@@ -41,6 +41,6 @@ body {
 
 .text-container h3 {
   white-space: nowrap; /* Prevents wrapping of text */
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0; /* Removes default margin */
 }
