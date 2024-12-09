@@ -69,3 +69,18 @@ body {
   height: 200px; /* Set a fixed height */
   object-fit: contain; /* Maintain aspect ratio while covering the area */
 }
+.skill img{
+  width: 30px;
+  height: 30px;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.footer-jumbotron{
+  background-color: #101B1E;
+  color: white;
+}
