@@ -16,9 +16,9 @@ $(document).ready(function () {
     window.open("https://github.com/GalAlfandary  ", "_blank");
   });
   $(".about").click(function () {
-    // Replace the URL with your LinkedIn profile link
-    window.open("https://www.linkedin.com/in/gal-alfandary-351b8718a/", "_blank");
-  });
+    // Navigate to the about.html page in the same tab
+    window.location.href = "https://galalfandary.github.io/Dev-By-Gal/about.html";
+});
   $(".explore-button").click(function () {
     $("html, body").animate({
       scrollTop: $("#projects").offset().top
