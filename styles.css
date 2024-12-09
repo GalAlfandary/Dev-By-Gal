@@ -13,6 +13,11 @@ body {
   color: #101B1E;
   border-radius: 50px;
 }
+.btn-primary:hover {
+  background-color: #7CE0F5;
+  border-color: #7CE0F5;
+  color: #101B1E;
+}
 .text-bg-dark {
   background-color: #101B1E;
   color: #68BBCD;
@@ -43,4 +48,24 @@ body {
   white-space: nowrap; /* Prevents wrapping of text */
   font-size: 1rem;
   margin: 0; /* Removes default margin */
+}
+
+.card img {
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio while covering the area */
+}
+
+.card {
+  height: 100%; /* Ensure cards have consistent height */
+}
+
+.carousel-inner {
+  height: 200px; /* Match the image height for consistency */
+}
+#talk-to-me{
+  background-color: #F4F4F4;
+}
+.carousel-inner img {
+  height: 200px; /* Set a fixed height */
+  object-fit: contain; /* Maintain aspect ratio while covering the area */
 }
