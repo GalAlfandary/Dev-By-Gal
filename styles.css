@@ -82,5 +82,12 @@ body {
 }
 .footer-jumbotron{
   background-color: #101B1E;
-  color: white;
+  
 }
+.footer a,
+.footer p{
+  color: white !important;
+  text-decoration: none;
+}
+
+/* End of styles.css */

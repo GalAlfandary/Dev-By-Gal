@@ -11,4 +11,17 @@ $(document).ready(function () {
     // Replace the phone number with your phone number
     window.open("https://wa.me/972508168774", "_blank");
   }); 
+  $(".Github").click(function () {
+    // Replace the URL with your GitHub profile link
+    window.open("https://github.com/GalAlfandary  ", "_blank");
+  });
+  $(".about").click(function () {
+    // Replace the URL with your LinkedIn profile link
+    window.open("https://www.linkedin.com/in/gal-alfandary-351b8718a/", "_blank");
+  });
+  $(".explore-button").click(function () {
+    $("html, body").animate({
+      scrollTop: $("#projects").offset().top
+  }, 1000); // 1000ms for smooth scrolling
+  });
 });
