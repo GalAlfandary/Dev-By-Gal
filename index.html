@@ -18,19 +18,19 @@
 <body>
 
   <section>
-    <!-- Navbar Section -->
-    <div class="px-3 py-2 text-bg-dark border-bottom">
+    <!--
+    NAV-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
       <div class="container">
-        <div class="d-flex align-items-center justify-content-between">
-          <!-- Logo on the left -->
-          <a href="./index.html" class="d-flex align-items-center">
-            <img src="./images/logo.png" alt="Logo" class="logo">
-          </a>
-
-          <!-- Buttons on the right -->
-          <ul class="nav my-2 my-md-0 text-small">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="Logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
             <li>
-              <a href="./index.html" class="nav-link text-white">
+              <a href="./index.html" class="nav-link text-white px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-house-door" viewBox="0 0 16 16">
                   <path
@@ -40,7 +40,7 @@
               </a>
             </li>
             <li>
-              <a href="#projects" class="nav-link text-white">
+              <a href="#projects" class="nav-link text-white px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-code-slash" viewBox="0 0 16 16">
                   <path
@@ -50,7 +50,7 @@
               </a>
             </li>
             <li>
-              <a href="#Briefly" class="nav-link text-white">
+              <a href="#Briefly" class="nav-link text-white px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-person-circle" viewBox="0 0 16 16">
                   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
@@ -61,20 +61,22 @@
               </a>
             </li>
             <li>
-              <a href="#talk-to-me" class="nav-link btn-primary">
+              <button class="nav-link btn-primary px-2 talk-to-me">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-envelope" viewBox="0 0 16 16">
                   <path
                     d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
                 </svg>
                 Talk To Me
-              </a>
+              </button>
+              
             </li>
           </ul>
         </div>
       </div>
-    </div>
+    </nav>
   </section>
+
 
 
   <section>
@@ -117,7 +119,7 @@
               <span class="catchphrase" style="font-weight: bold;">Briefly</span> About Me
             </h1>
             <p class="lead mt-3">
-              Hello! I’m Gal Alfandary, a Computer Science student who’s passionate about using technology to make a positive impact. As a mentor in the Babushka Mentoring Program, I have the privilege of guiding a talented teen as she begins her journey into the tech world. Combining my love for innovation with a drive to empower the next generation, I believe that technology is about collaboration, creativity, and creating opportunities for all.
+              Hello! I’m Gal Alfandary, a Computer Science student passionate about using technology to make a positive impact. As a mentor in the Babushka Mentoring Program, I have the privilege of guiding a talented teen as she begins her journey into the tech world. Combining my love for innovation with a drive to empower the next generation, I believe that technology is about collaboration, creativity, and creating opportunities for all.
             </p>
             <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 about">Read more</button>
           </div>
@@ -142,6 +144,18 @@
             <img src="./images/java.png" alt="Java" class="img-fluid" width="50" height="50">
             <div class="text-container">
               <h3 class="mb-0 fs-5">Java</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center skill">
+            <img src="./images/html.png" alt="Java" class="img-fluid" width="50" height="50">
+            <div class="text-container">
+              <h3 class="mb-0 fs-5">html</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-center skill">
+            <img src="./images/css.png" alt="Java" class="img-fluid" width="50" height="50">
+            <div class="text-container">
+              <h3 class="mb-0 fs-5">css</h3>
             </div>
           </div>
           <div class="col d-flex align-items-center skill">
@@ -409,9 +423,9 @@
           <footer class="py-3 my-4">
             <img src="./images/logo.png" alt="Gal's Logo" class="d-block mx-auto img-fluid" width="100" height="100">
             <ul class="nav justify-content-center border-bottom py-4 mb-3">
-              <li class="nav-item" ><a href="#" class="nav-link px-2 text-body-secondary" style="color: white;">Home</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Projects</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About me</a></li>
+              <li class="nav-item" ><a href="./index.html" class="nav-link px-2 text-body-secondary" style="color: white;">Home</a></li>
+              <li class="nav-item"><a href="./index.html#projects" class="nav-link px-2 text-body-secondary">Projects</a></li>
+              <li class="nav-item"><a href="./index.html#Briefly" class="nav-link px-2 text-body-secondary">About me</a></li>
             </ul>
             
             <button class="btn btn-primary rounded-circle p-2 mx-0.5 lh-1 Linkedin" type="button">

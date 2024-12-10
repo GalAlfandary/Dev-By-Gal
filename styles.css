@@ -89,5 +89,13 @@ body {
   color: white !important;
   text-decoration: none;
 }
+.navbar{
+  background: #101B1E !important;
+  position: fixed;
+  width: 100%;
+z-index: 1000;
+}
+
+
 
 /* End of styles.css */

@@ -18,7 +18,11 @@ $(document).ready(function () {
   $(".about").click(function () {
     // Navigate to the about.html page in the same tab
     window.location.href = "https://galalfandary.github.io/Dev-By-Gal/about.html";
-});
+  });
+  $(".talk-to-me").click(function () {
+    // Navigate to the contact.html page in the same tab
+    window.location.href = "https://galalfandary.github.io/Dev-By-Gal/index.html#talk-to-me";
+  });
   $(".explore-button").click(function () {
     $("html, body").animate({
       scrollTop: $("#projects").offset().top
